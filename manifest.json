@@ -1,0 +1,30 @@
+{
+  "name": "Aliexpress Cart 2 Excel",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "description": "Convert Aliexpress Cart items to Google Spread Sheet",
+  "homepage_url": "https://tjunussov.github.io",
+  "icons": { 
+    "16": "icon48.png",
+    "48": "icon48.png",
+    "128": "icon128.png" 
+  },
+  "background": {
+    "service_worker":"background.js"
+  },
+  "content_scripts": [
+    {
+     "matches": ["https://shoppingcart.aliexpress.com/*"],
+     "js": ["inject.js"]
+    }
+  ],
+  "action": {
+    "default_icon": "icon32.png",
+    "default_title": "Aliexpress Cart Excel!"
+  },
+  "permissions": [
+  ],
+  "host_permissions": [
+    "https://shoppingcart.aliexpress.com/*"
+  ]
+}
