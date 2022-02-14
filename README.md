@@ -20,3 +20,18 @@ Convert your Aliexpress shopping cart to easy readable and sortable Google Sprea
 1. Free shipping replaced to $ 0
 2. USD $ XX.00, replaced to $ XX,
 
+
+
+## TODO
+- Show Mini spreadsheet inside AliExpress
+- UI: Price Compare horizintal cards
+- Show total cost
+- Sort by quantity, weight, stars
+- Remove from cart
+
+
+## FUTURE TODO
+- Taobao vs Aliexpress search by picture, auto convert to USD
+- Aliexpress show unique and most selling, show total price only
+- Cabinet with Tracking all packages ( active, done )
+- Shopping agrigator
